@@ -1,0 +1,55 @@
+.footer>div {
+    margin-bottom: 12px;
+    padding-bottom: 7px;
+    border-bottom:1px dotted #aaa;
+}
+
+.footer_link p {
+    margin: 0 0 5px;
+    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer_link ul {
+    list-style: outside none none;
+    margin: 20px -60px;
+    padding: 0;
+    list-style-type: none;
+    -webkit-padding-start: 0;
+}
+
+.footer_link ul li {
+    float: left;
+    line-height: 15px;
+    width: 33%;
+    margin: 20px 0 0 0;
+}
+
+.footer_link li a {
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    margin: 0 7px;
+    padding: 3px 2px;
+}
+
+.footer_link li a:hover {
+    color:#ff6600;
+    text-decoration:underline;
+}
+
+.footer_link li a:active {
+    color:#ffad76;
+}
+
+.foot {
+    width: 100%;
+    color: #fff;
+    padding:10px 0;
+    margin:0;
+    background-color: #222222;
+}

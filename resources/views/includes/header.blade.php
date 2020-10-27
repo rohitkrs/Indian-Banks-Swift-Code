@@ -1,0 +1,52 @@
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">BankIFSCCode</a>
+      <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bank Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Search by Branch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">IFSC Code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Swift Code</a>
+          </li><!-- 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> -->
+        </ul><!-- 
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav>
+    <div class="align-items-center text-center p-3">
+    <img src="{{url('/images/ad1.gif')}}">
+</div>
+
+<div class="row">
+    <div class="container">
+      <div class="col-md-12">
+        <h2></h2>
+        <p>
+        IFSC (Indian Financial System Code) is an 11-digit alphanumeric code that uniquely identifies all banks and their respective branches participating in the online funds transfer process. The IFSC Code is assigned to each bank branch by the Reserve Bank of India (RBI) to monitor the online transfer of money.
+        </p>
+      </div>
+    </div>
+</div>
